@@ -17,4 +17,7 @@ object Dependencies {
     // test
     const val SPRING_TEST = "org.springframework.boot:spring-boot-starter-test:${PluginVersions.SPRING_BOOT_VERSION}"
 
+    // database
+    const val SPRING_DATA_JPA = "org.springframework.boot:spring-boot-starter-data-jpa"
+    const val MYSQL_DRIVER = "mysql:mysql-connector-java"
 }
