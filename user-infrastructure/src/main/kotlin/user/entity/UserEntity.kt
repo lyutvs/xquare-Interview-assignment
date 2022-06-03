@@ -1,8 +1,8 @@
 package com.example.xquareinterviewassignment.user.entity
 
 import com.example.xquareinterviewassignment.configuration.entity.BaseUUIDEntity
-import com.example.xquareinterviewassignment.configuration.type.Authority
 import org.hibernate.validator.constraints.Length
+import user.type.Authority
 import javax.persistence.Entity
 import javax.persistence.EnumType
 import javax.persistence.Enumerated
@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull
 
 @Entity
 @Table(name = "tbl_user")
-class User(
+class UserEntity(
 
     @field:NotNull
     @field:Length(max = 50)
