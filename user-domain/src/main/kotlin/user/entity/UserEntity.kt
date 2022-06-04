@@ -1,6 +1,6 @@
-package com.example.xquareinterviewassignment.user.entity
+package user.entity
 
-import com.example.xquareinterviewassignment.configuration.entity.BaseUUIDEntity
+import configuration.entity.BaseUUIDEntity
 import org.hibernate.validator.constraints.Length
 import user.type.Authority
 import javax.persistence.Entity

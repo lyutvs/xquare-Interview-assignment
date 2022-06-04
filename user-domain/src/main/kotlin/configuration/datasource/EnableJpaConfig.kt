@@ -1,4 +1,4 @@
-package com.example.xquareinterviewassignment.configuration.datasource
+package configuration.datasource
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing

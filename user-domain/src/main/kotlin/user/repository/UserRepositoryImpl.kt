@@ -1,4 +1,4 @@
-package com.example.xquareinterviewassignment.user.repository
+package user.repository
 
 import org.springframework.stereotype.Repository
 import user.saveuser.spi.UserRepositorySpi

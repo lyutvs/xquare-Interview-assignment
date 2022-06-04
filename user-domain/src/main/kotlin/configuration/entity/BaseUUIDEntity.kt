@@ -1,4 +1,4 @@
-package com.example.xquareinterviewassignment.configuration.entity
+package configuration.entity
 
 import java.util.*
 import javax.persistence.Column

@@ -1,4 +1,4 @@
-package com.example.xquareinterviewassignment.configuration.scaning
+package configuration.scaning
 
 import annotations.DomainService
 import org.springframework.context.annotation.ComponentScan
