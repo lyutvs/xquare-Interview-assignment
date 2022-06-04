@@ -1,0 +1,6 @@
+jwt:
+  secret-key: ${JWT_SECRET}
+  access-exp: ${JWT_ACCESS_EXP}
+  refresh-exp: ${JWT_REFRESH_EXP}
+  header: ${JWT_HEADER}
+  prefix: ${JWT_PREFIX}

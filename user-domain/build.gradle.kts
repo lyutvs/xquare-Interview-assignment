@@ -1,12 +1,6 @@
 plugins {
 }
 
-dependencyManagement {
-    imports {
-        mavenBom(Dependencies.SPRING_CLOUD)
-    }
-}
-
 dependencies {
 
     implementation(Dependencies.VALIDATION)
