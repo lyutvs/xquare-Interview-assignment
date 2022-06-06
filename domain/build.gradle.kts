@@ -5,9 +5,22 @@ plugins {
     kotlin("plugin.jpa") version PluginVersions.JPA_PLUGIN_VERSION
 }
 
+dependencyManagement {
+    imports {
+        mavenBom(Dependencies.SPRING_CLOUD)
+    }
+}
+
 dependencies {
-    implementation(Dependencies.SPRING_SECURITY)
+    implementation(Dependencies.SPRING_DATA_JPA)
+    implementation(Dependencies.MYSQL_DRIVER)
+    kapt(Dependencies.MAPSTRUCT_APT)
+    kapt(Dependencies.PROPERTIES_SCAN)
+    implementation(Dependencies.SPRING_WEB)
+
     implementation(project(":user-domain"))
+    implementation(project(":security-domain"))
+    implementation(project(":feed-domain"))
 
 }
 

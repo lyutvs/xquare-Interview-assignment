@@ -27,4 +27,10 @@ object Dependencies {
     // cloud
     const val SPRING_CLOUD = "org.springframework.cloud:spring-cloud-dependencies:${DependencyVersions.SPRING_CLOUD_VERSION}"
 
+    // web
+    const val SPRING_WEB = "org.springframework.boot:spring-boot-starter-web"
+
+    // properties
+    const val PROPERTIES_SCAN = "org.springframework.boot:spring-boot-configuration-processor"
+
 }
