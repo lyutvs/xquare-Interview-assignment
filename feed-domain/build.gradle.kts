@@ -5,11 +5,10 @@ plugins {
     kotlin("plugin.jpa") version PluginVersions.JPA_PLUGIN_VERSION
 }
 
-
 dependencies {
     implementation(Dependencies.SPRING_DATA_JPA)
     implementation(Dependencies.VALIDATION)
-    kapt(Dependencies.MAPSTRUCT_APT)
+
 
 }
 

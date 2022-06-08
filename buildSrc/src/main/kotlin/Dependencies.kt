@@ -20,4 +20,17 @@ object Dependencies {
     // database
     const val SPRING_DATA_JPA = "org.springframework.boot:spring-boot-starter-data-jpa"
     const val MYSQL_DRIVER = "mysql:mysql-connector-java"
+
+    // security
+    const val SPRING_SECURITY = "org.springframework.boot:spring-boot-starter-security"
+
+    // cloud
+    const val SPRING_CLOUD = "org.springframework.cloud:spring-cloud-dependencies:${DependencyVersions.SPRING_CLOUD_VERSION}"
+
+    // web
+    const val SPRING_WEB = "org.springframework.boot:spring-boot-starter-web"
+
+    // properties
+    const val PROPERTIES_SCAN = "org.springframework.boot:spring-boot-configuration-processor"
+
 }
